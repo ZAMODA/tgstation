@@ -28,6 +28,14 @@
 /obj/structure/railing,
 /turf/open/floor/iron,
 /area/space)
+"bQ" = (
+/turf/open/floor/iron/textured_large,
+/area/space)
+"bT" = (
+/turf/open/floor/iron/textured_half{
+	dir = 1
+	},
+/area/space)
 "ci" = (
 /turf/open/floor/engine/co2,
 /area/space)
@@ -35,17 +43,38 @@
 /obj/structure/closet/secure_closet/miner,
 /turf/open/floor/iron,
 /area/space)
+"dQ" = (
+/turf/open/floor/iron/smooth_large,
+/area/space)
 "dX" = (
 /turf/open/floor/carpet/royalblack,
 /area/space)
 "eo" = (
 /turf/open/floor/engine/n2o,
 /area/space)
+"eE" = (
+/turf/open/floor/iron/smooth_corner{
+	dir = 4
+	},
+/area/space)
+"eI" = (
+/turf/open/floor/iron/white/side,
+/area/space)
+"eJ" = (
+/turf/open/floor/iron/smooth_corner{
+	dir = 1
+	},
+/area/space)
 "eN" = (
 /obj/structure/railing/corner{
 	dir = 1
 	},
 /turf/open/floor/iron,
+/area/space)
+"fF" = (
+/turf/open/floor/iron/corner{
+	dir = 8
+	},
 /area/space)
 "fY" = (
 /obj/structure/window/reinforced/spawner/west,
@@ -82,6 +111,9 @@
 /obj/structure/lattice/catwalk/mining,
 /turf/open/space/basic,
 /area/space)
+"jC" = (
+/turf/open/floor/iron/corner,
+/area/space)
 "kp" = (
 /turf/closed/wall,
 /area/space)
@@ -93,6 +125,16 @@
 "ms" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/carpet/royalblack,
+/area/space)
+"mK" = (
+/turf/open/floor/iron/white/side{
+	dir = 4
+	},
+/area/space)
+"nh" = (
+/turf/open/floor/iron/corner{
+	dir = 1
+	},
 /area/space)
 "nk" = (
 /obj/structure/window/spawner/east,
@@ -106,6 +148,11 @@
 /area/space)
 "nu" = (
 /turf/open/floor/wood/parquet,
+/area/space)
+"nv" = (
+/turf/open/floor/iron/smooth_edge{
+	dir = 1
+	},
 /area/space)
 "nS" = (
 /obj/structure/railing/corner,
@@ -125,6 +172,17 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
+/area/space)
+"qC" = (
+/turf/open/floor/iron/smooth_edge{
+	dir = 4
+	},
+/area/space)
+"rd" = (
+/turf/open/floor/iron/edge,
+/area/space)
+"rn" = (
+/turf/open/floor/iron/half,
 /area/space)
 "sn" = (
 /obj/machinery/door/airlock/engineering/glass,
@@ -148,6 +206,11 @@
 /obj/docking_port/mobile/supply,
 /turf/open/floor/plating,
 /area/space)
+"uI" = (
+/turf/open/floor/iron/textured_corner{
+	dir = 4
+	},
+/area/space)
 "uO" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -167,6 +230,11 @@
 "wU" = (
 /turf/open/floor/iron/white/side{
 	dir = 1
+	},
+/area/space)
+"xd" = (
+/turf/open/floor/iron/textured_corner{
+	dir = 8
 	},
 /area/space)
 "xo" = (
@@ -256,9 +324,15 @@
 /obj/structure/flora/bush/grassy/style_4,
 /turf/open/floor/grass,
 /area/space)
+"Cc" = (
+/turf/open/floor/iron/white/herringbone,
+/area/space)
 "Cx" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/plating,
+/area/space)
+"Cz" = (
+/turf/open/floor/eighties,
 /area/space)
 "DK" = (
 /obj/machinery/computer/records/security,
@@ -266,6 +340,9 @@
 /area/space)
 "Ew" = (
 /turf/open/floor/wood,
+/area/space)
+"EM" = (
+/turf/open/floor/iron/smooth_corner,
 /area/space)
 "Ff" = (
 /turf/open/floor/engine/plasma,
@@ -301,6 +378,11 @@
 /obj/machinery/power/energy_accumulator/tesla_coil/anchored,
 /obj/structure/cable,
 /turf/open/floor/plating,
+/area/space)
+"Ir" = (
+/turf/open/floor/iron/textured_corner{
+	dir = 1
+	},
 /area/space)
 "Iz" = (
 /obj/effect/spawner/random/trash/grille_or_waste,
@@ -393,6 +475,11 @@
 "Rz" = (
 /turf/open/floor/engine/air,
 /area/space)
+"RN" = (
+/turf/open/floor/iron/smooth_edge{
+	dir = 8
+	},
+/area/space)
 "RO" = (
 /turf/open/floor/iron/white/side{
 	dir = 10
@@ -403,6 +490,9 @@
 /area/space)
 "Sz" = (
 /turf/closed/wall/r_wall,
+/area/space)
+"SH" = (
+/turf/open/floor/iron/textured_corner,
 /area/space)
 "SJ" = (
 /turf/open/floor/wood/tile,
@@ -415,6 +505,11 @@
 "TF" = (
 /obj/structure/flora/bush/grassy,
 /turf/open/floor/grass,
+/area/space)
+"TI" = (
+/turf/open/floor/iron/smooth_corner{
+	dir = 8
+	},
 /area/space)
 "UN" = (
 /obj/item/instrument/musicalmoth,
@@ -451,8 +546,16 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"WQ" = (
+/turf/open/floor/iron/smooth_edge,
+/area/space)
 "Xt" = (
 /turf/open/floor/engine/o2,
+/area/space)
+"XC" = (
+/turf/open/floor/iron/edge{
+	dir = 1
+	},
 /area/space)
 "Yx" = (
 /obj/structure/window/spawner/north,
@@ -465,6 +568,9 @@
 "YP" = (
 /turf/open/floor/iron,
 /area/space)
+"ZA" = (
+/turf/open/floor/iron/textured_half,
+/area/space)
 "ZC" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/ladder,
@@ -474,6 +580,11 @@
 /obj/machinery/door/airlock/engineering/glass,
 /obj/effect/mapping_helpers/airlock/access/any/engineering,
 /turf/open/floor/plating,
+/area/space)
+"ZX" = (
+/turf/open/floor/iron/corner{
+	dir = 4
+	},
 /area/space)
 
 (1,1,1) = {"
@@ -72802,7 +72913,7 @@ yt
 yt
 yt
 yt
-kp
+yt
 yt
 yt
 yt
@@ -77165,21 +77276,21 @@ yt
 yt
 yt
 yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+YP
+YP
+kp
+kp
+kp
+kp
 yt
 yt
 Sz
@@ -77422,21 +77533,21 @@ yt
 yt
 yt
 yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
+Sz
+Rz
+Rz
+Rz
+Rz
+Rz
+Rz
+Rz
+Sz
+YP
+YP
+vL
+jC
+ZX
+kp
 yt
 yt
 Sz
@@ -77679,21 +77790,21 @@ yt
 yt
 yt
 yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
+Sz
+Rz
+Rz
+Rz
+Rz
+Rz
+Rz
+Rz
+Sz
+YP
+YP
+vL
+rn
+rn
+XC
 yt
 yt
 Sz
@@ -77936,21 +78047,21 @@ yt
 yt
 yt
 yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
+Sz
+Rz
+Rz
+Rz
+Rz
+Rz
+Rz
+Rz
+Sz
+YP
+YP
+rd
+rn
+rn
+kp
 yt
 yt
 Sz
@@ -78193,21 +78304,21 @@ yt
 yt
 yt
 yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
+Sz
+Sz
+Sz
+Sz
+Sz
+vL
+Rz
+vL
+Sz
+YP
+YP
+vL
+fF
+nh
+kp
 yt
 yt
 Sz
@@ -78450,23 +78561,23 @@ yt
 yt
 yt
 yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
+Sz
+Rz
+Rz
+Rz
+EM
+qC
+qC
+qC
+eE
+YP
+YP
+kp
+kp
+kp
+kp
+YP
+kp
 Sz
 KU
 yt
@@ -78707,23 +78818,23 @@ yt
 yt
 yt
 yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
+Sz
+Rz
+Rz
+Rz
+WQ
+dQ
+dQ
+dQ
+nv
+YP
+YP
+kp
+Cz
+Cz
+Cz
+Cz
+Cz
 Sz
 KU
 MC
@@ -78964,23 +79075,23 @@ yt
 yt
 yt
 yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
+Sz
+Rz
+Rz
+Rz
+WQ
+dQ
+dQ
+dQ
+nv
+YP
+YP
+YP
+Cz
+Cz
+Cz
+Cz
+Cz
 Sz
 KU
 yt
@@ -79221,23 +79332,23 @@ yt
 yt
 yt
 yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
+Sz
+Rz
+Rz
+Rz
+WQ
+dQ
+dQ
+dQ
+nv
+YP
+YP
+kp
+Cz
+Cz
+Cz
+Cz
+Cz
 Sz
 KU
 yt
@@ -79478,23 +79589,23 @@ yt
 yt
 yt
 yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
+Sz
+Sz
+Sz
+Sz
+TI
+RN
+RN
+RN
+eJ
+YP
+YP
+kp
+Cz
+Cz
+Cz
+Cz
+Cz
 Sz
 KU
 yt
@@ -79737,15 +79848,15 @@ yt
 yt
 yt
 yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
+Sz
+YP
+YP
+YP
+YP
+YP
+YP
+YP
+YP
 Sz
 Sz
 Sz
@@ -79994,21 +80105,21 @@ yt
 yt
 yt
 yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
-yt
+Sz
+YP
+YP
+YP
+YP
+YP
+YP
+YP
 Sz
 Sz
-KU
+Cc
 Jr
 Jr
 Jr
-KU
+Cc
 Sz
 Sz
 KU
@@ -80253,20 +80364,20 @@ yt
 yt
 Sz
 Sz
+mK
 Sz
 Sz
+vL
+vL
+vL
 Sz
-Sz
-Sz
-Sz
-Sz
-KU
-KU
+Cc
+Cc
 Jr
 Jr
 Jr
-KU
-KU
+Cc
+Cc
 Sz
 KU
 KU
@@ -80517,13 +80628,13 @@ yt
 yt
 yt
 Sz
-KU
-KU
+Cc
+Cc
 Jr
 Jr
 Jr
-KU
-KU
+Cc
+Cc
 Sz
 Sz
 Sz
@@ -80774,13 +80885,13 @@ yt
 yt
 yt
 Sz
-KU
-KU
+Cc
+Cc
 Wj
 Wj
 Wj
-KU
-KU
+Cc
+Cc
 Sz
 KU
 KU
@@ -81031,13 +81142,13 @@ yt
 yt
 yt
 Sz
-KU
-KU
+Cc
+Cc
 Jr
 Jr
 Jr
-KU
-KU
+Cc
+Cc
 Sz
 KU
 KU
@@ -81288,13 +81399,13 @@ vL
 vL
 vL
 Sz
-KU
+Cc
 kp
 kp
 Jr
 kp
 kp
-KU
+Cc
 Sz
 Sz
 KU
@@ -81545,13 +81656,13 @@ KU
 KU
 KU
 Sz
-KU
+Cc
 kp
 Jr
 Jr
 Jr
 kp
-KU
+Cc
 Sz
 KU
 KU
@@ -81801,15 +81912,15 @@ KU
 KU
 KU
 KU
-KU
-KU
+Cc
+Cc
 PY
 Jr
 nZ
 Jr
 kp
-KU
-KU
+Cc
+Cc
 KU
 KU
 KU
@@ -82059,13 +82170,13 @@ KU
 KU
 KU
 Sz
-KU
+Cc
 kp
 Jr
 zR
 Jr
 kp
-KU
+Cc
 Sz
 KU
 KU
@@ -83854,9 +83965,9 @@ yt
 yt
 yt
 Sz
-KU
+Bt
 Sz
-KU
+Bt
 Sz
 Sz
 Sz
@@ -83866,9 +83977,9 @@ vL
 Sz
 Sz
 Sz
-KU
+Bt
 Sz
-KU
+Bt
 Sz
 YP
 YP
@@ -84111,6 +84222,10 @@ yt
 yt
 yt
 Sz
+SH
+bT
+uI
+eI
 KU
 KU
 KU
@@ -84118,14 +84233,10 @@ KU
 KU
 KU
 KU
-KU
-KU
-KU
-KU
-KU
-KU
-KU
-KU
+wU
+SH
+bT
+uI
 Sz
 YP
 YP
@@ -84368,9 +84479,9 @@ yt
 yt
 yt
 Sz
-KU
-KU
-KU
+ZA
+bQ
+ZA
 Sz
 KU
 KU
@@ -84380,9 +84491,9 @@ KU
 KU
 KU
 Sz
-KU
-KU
-KU
+ZA
+bQ
+ZA
 Sz
 YP
 YP
@@ -84625,6 +84736,10 @@ yt
 yt
 yt
 Sz
+xd
+bT
+Ir
+eI
 KU
 KU
 KU
@@ -84632,14 +84747,10 @@ KU
 KU
 KU
 KU
-KU
-KU
-KU
-KU
-KU
-KU
-KU
-KU
+wU
+xd
+bT
+Ir
 Sz
 YP
 YP
