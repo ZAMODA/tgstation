@@ -40,6 +40,7 @@
 	dir = 1
 	},
 /obj/structure/railing,
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/space)
 "bQ" = (
@@ -121,6 +122,13 @@
 /obj/structure/railing/corner{
 	dir = 1
 	},
+/turf/open/floor/iron,
+/area/space)
+"fg" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/space)
 "fh" = (
@@ -322,6 +330,11 @@
 /obj/machinery/computer/atmos_control/mix_tank,
 /turf/open/floor/iron,
 /area/space)
+"ma" = (
+/obj/machinery/door/firedoor,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/space)
 "ms" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/carpet/royalblack,
@@ -412,6 +425,12 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/space)
+"pf" = (
+/obj/structure/cable,
+/turf/open/floor/iron/white/side{
+	dir = 8
+	},
+/area/space)
 "pl" = (
 /obj/structure/industrial_lift/tram/subfloor,
 /obj/structure/fluff/tram_rail/anchor{
@@ -455,6 +474,11 @@
 /obj/effect/turf_decal/box/corners,
 /turf/open/floor/engine,
 /area/space)
+"pZ" = (
+/obj/structure/railing/corner,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/space)
 "qe" = (
 /obj/structure/cable,
 /turf/closed/wall/r_wall,
@@ -469,6 +493,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/space)
 "qC" = (
@@ -550,6 +575,12 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
+/area/space)
+"uS" = (
+/obj/structure/cable,
+/turf/open/floor/iron/textured_corner{
+	dir = 4
+	},
 /area/space)
 "uX" = (
 /obj/effect/decal/cleanable/vomit/old,
@@ -762,6 +793,7 @@
 /obj/structure/railing/corner{
 	dir = 4
 	},
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/space)
 "Bd" = (
@@ -780,6 +812,10 @@
 /turf/open/floor/iron/white/side{
 	dir = 8
 	},
+/area/space)
+"By" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark/textured_large,
 /area/space)
 "BB" = (
 /obj/structure/lattice/catwalk/mining,
@@ -1010,9 +1046,14 @@
 /obj/structure/railing/corner{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/space)
 "KU" = (
+/turf/open/floor/iron/white,
+/area/space)
+"Lc" = (
+/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/space)
 "Ld" = (
@@ -1032,6 +1073,13 @@
 /obj/effect/turf_decal/box/white,
 /turf/open/floor/engine,
 /area/space)
+"LD" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/space)
 "LS" = (
 /obj/structure/stairs/east,
 /obj/structure/railing,
@@ -1043,6 +1091,7 @@
 /area/space)
 "Mk" = (
 /obj/structure/railing,
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/space)
 "Mr" = (
@@ -1122,6 +1171,14 @@
 "NY" = (
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/space)
+"Ob" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/space)
 "Ol" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -1131,6 +1188,7 @@
 /area/station/science/ordnance/bomb)
 "Ov" = (
 /obj/structure/window/spawner,
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/space)
 "ON" = (
@@ -1241,6 +1299,14 @@
 /obj/machinery/air_sensor/plasma_tank,
 /turf/open/floor/engine/plasma,
 /area/space)
+"Tm" = (
+/obj/structure/railing,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/cable/multilayer/multiz,
+/turf/open/floor/iron,
+/area/space)
 "TF" = (
 /obj/structure/flora/bush/grassy,
 /turf/open/floor/grass,
@@ -1249,6 +1315,10 @@
 /turf/open/floor/iron/smooth_corner{
 	dir = 8
 	},
+/area/space)
+"TK" = (
+/obj/structure/cable,
+/turf/open/floor/iron/white/side,
 /area/space)
 "TL" = (
 /obj/machinery/mechpad,
@@ -82483,10 +82553,10 @@ Sz
 Rf
 Rf
 Rf
-Rf
-Rf
-YP
-YP
+By
+By
+FD
+FD
 RS
 RS
 Sz
@@ -82743,7 +82813,7 @@ Sz
 Sz
 Sz
 Sz
-YP
+FD
 Sz
 Sz
 Sz
@@ -82988,19 +83058,19 @@ qh
 qh
 qh
 kp
-vL
-vL
-vL
-vL
-vL
-vL
+Ry
+Ry
+Ry
+Ry
+Ry
+Ry
 vL
 vL
 kp
 vL
 kp
 YP
-YP
+FD
 kp
 vL
 vL
@@ -83245,23 +83315,23 @@ qh
 qh
 qh
 kp
-vL
+Ry
 kp
 kp
 kp
 vL
-vL
+Ry
 kp
 kp
 kp
-vL
-vL
-YP
-YP
-vL
-vL
-vL
-vL
+Ry
+Ry
+FD
+FD
+Ry
+Ry
+Ry
+Ry
 vL
 vL
 Sz
@@ -83502,16 +83572,16 @@ qh
 qh
 qh
 kp
-vL
+Ry
 vL
 vL
 kp
 vL
-vL
-vL
-vL
-vL
-vL
+Ry
+Ry
+Ry
+Ry
+Ry
 kp
 YP
 YP
@@ -83759,7 +83829,7 @@ qh
 qh
 qh
 kp
-vL
+Ry
 vL
 Sz
 Sz
@@ -84016,7 +84086,7 @@ qh
 qh
 qh
 kp
-vL
+Ry
 vL
 Sz
 vw
@@ -84273,7 +84343,7 @@ qh
 qh
 qh
 kp
-vL
+Ry
 vL
 Sz
 vw
@@ -84530,7 +84600,7 @@ qh
 qh
 qh
 kp
-vL
+Ry
 vL
 Sz
 vw
@@ -84787,7 +84857,7 @@ qh
 qh
 qh
 kp
-vL
+Ry
 kp
 Sz
 Sz
@@ -85044,7 +85114,7 @@ kp
 kp
 kp
 kp
-vL
+Ry
 vL
 Sz
 vw
@@ -85301,7 +85371,7 @@ vL
 vL
 vL
 kp
-vL
+Ry
 vL
 Sz
 vw
@@ -85558,7 +85628,7 @@ vL
 vL
 vL
 kp
-vL
+Ry
 vL
 Sz
 vw
@@ -85815,7 +85885,7 @@ vL
 vL
 vL
 kp
-vL
+Ry
 vL
 Sz
 vw
@@ -86072,7 +86142,7 @@ kp
 kp
 vL
 kp
-vL
+Ry
 vL
 Sz
 Sz
@@ -86329,7 +86399,7 @@ vL
 vL
 vL
 vL
-vL
+Ry
 vL
 vL
 vL
@@ -86582,11 +86652,11 @@ kp
 kp
 kp
 vL
-vL
-vL
-vL
-vL
-vL
+Ry
+Ry
+Ry
+Ry
+Ry
 vL
 vL
 vL
@@ -86839,11 +86909,11 @@ vL
 vL
 vL
 vL
-vL
+Ry
 vL
 vL
 kp
-vL
+Ry
 kp
 vL
 kp
@@ -87093,14 +87163,14 @@ yt
 yt
 kp
 vL
-vL
-vL
-vL
-vL
+Ry
+Ry
+Ry
+Ry
 vL
 vL
 kp
-vL
+Ry
 kp
 vL
 vL
@@ -87350,14 +87420,14 @@ yt
 yt
 kp
 vL
-vL
-vL
-kp
-kp
+Ry
 vL
 kp
 kp
 vL
+kp
+kp
+Ry
 kp
 kp
 vL
@@ -87379,10 +87449,10 @@ Cc
 Cc
 Sz
 KU
-KU
-KU
-KU
-KU
+Lc
+Lc
+Lc
+Lc
 KU
 KU
 KU
@@ -87607,19 +87677,19 @@ yt
 yt
 kp
 vL
-vL
-vL
-kp
-vL
-vL
+Ry
 vL
 kp
 vL
 vL
 vL
-vL
-KU
-KU
+kp
+Ry
+Ry
+Ry
+Ry
+Lc
+Lc
 KU
 KU
 aQ
@@ -87636,10 +87706,10 @@ Cc
 Cc
 Sz
 KU
-KU
+Lc
 Sz
 KU
-KU
+Lc
 KU
 RS
 RS
@@ -87864,7 +87934,7 @@ yt
 yt
 kp
 vL
-vL
+Ry
 vL
 kp
 vL
@@ -87893,7 +87963,7 @@ kp
 Cc
 Sz
 Sz
-KU
+Lc
 Sz
 Sz
 Sz
@@ -88121,7 +88191,7 @@ yt
 yt
 kp
 vL
-vL
+Ry
 vL
 kp
 vL
@@ -88150,7 +88220,7 @@ kp
 Cc
 Sz
 KU
-KU
+Lc
 KU
 aQ
 Hm
@@ -88378,7 +88448,7 @@ yt
 yt
 kp
 vL
-vL
+Ry
 vL
 kp
 vL
@@ -88407,7 +88477,7 @@ kp
 Cc
 Cc
 KU
-KU
+Lc
 KU
 aQ
 DK
@@ -88635,7 +88705,7 @@ kp
 kp
 kp
 vL
-vL
+Ry
 vL
 Sz
 Sz
@@ -88664,7 +88734,7 @@ kp
 Cc
 Sz
 KU
-KU
+Lc
 KU
 aQ
 yL
@@ -88892,7 +88962,7 @@ ko
 ko
 kp
 vL
-vL
+Ry
 Sz
 Sz
 YP
@@ -88921,7 +88991,7 @@ Sz
 Sz
 Sz
 KU
-KU
+Lc
 KU
 Sz
 Sz
@@ -89149,7 +89219,7 @@ kF
 Mw
 kp
 vL
-vL
+Ry
 Sz
 YP
 YP
@@ -89178,7 +89248,7 @@ KU
 KU
 kp
 KU
-KU
+Lc
 KU
 wU
 YP
@@ -89405,10 +89475,10 @@ uX
 US
 ko
 kp
-vL
-vL
-YP
-YP
+Ry
+Ry
+FD
+FD
 YP
 YP
 YP
@@ -89435,7 +89505,7 @@ KU
 KU
 aQ
 KU
-KU
+Lc
 KU
 Sz
 kp
@@ -89662,10 +89732,10 @@ kp
 ez
 kp
 kp
-vL
+Ry
 vL
 Sz
-YP
+FD
 St
 St
 St
@@ -89681,18 +89751,18 @@ zS
 KU
 KU
 KU
-KU
-KU
-KU
-KU
-KU
-KU
-KU
-KU
-KU
-KU
-KU
-KU
+Lc
+Lc
+Lc
+Lc
+Lc
+Lc
+Lc
+Lc
+Lc
+Lc
+Lc
+Lc
 KU
 Sz
 YP
@@ -89919,10 +89989,10 @@ vL
 TX
 Xr
 zP
-vL
+Ry
 vL
 Sz
-YP
+FD
 St
 St
 St
@@ -89938,7 +90008,7 @@ RS
 aQ
 KU
 KU
-KU
+Lc
 aQ
 KU
 KU
@@ -90174,9 +90244,9 @@ yt
 kp
 vL
 vL
-vL
-vL
-vL
+Ry
+Ry
+Ry
 vL
 Sz
 YP
@@ -90195,7 +90265,7 @@ RS
 aQ
 KU
 KU
-KU
+Lc
 kp
 KU
 KU
@@ -90431,7 +90501,7 @@ yt
 kp
 kp
 kp
-Vw
+Rw
 kp
 kp
 kp
@@ -90452,7 +90522,7 @@ RS
 Sz
 Bt
 Sz
-Bt
+pf
 Sz
 Sz
 Sz
@@ -90688,7 +90758,7 @@ yt
 kp
 IA
 IA
-Vw
+Rw
 JP
 Vw
 IA
@@ -90709,12 +90779,12 @@ RS
 Sz
 SH
 bT
-uI
-eI
-KU
-KU
-KU
-KU
+uS
+TK
+Lc
+Lc
+Lc
+Lc
 KU
 KU
 KU
@@ -90945,7 +91015,7 @@ yt
 kp
 IA
 Vw
-Vw
+Rw
 IA
 Vw
 IA
@@ -90971,7 +91041,7 @@ Sz
 KU
 KU
 KU
-KU
+Lc
 KU
 KU
 KU
@@ -91202,7 +91272,7 @@ yt
 kp
 IA
 JP
-Vw
+Rw
 IA
 Vw
 JP
@@ -91228,7 +91298,7 @@ eI
 KU
 KU
 KU
-KU
+Lc
 KU
 KU
 KU
@@ -91459,7 +91529,7 @@ yt
 kp
 Vw
 Vw
-Vw
+Rw
 Vw
 JP
 Vw
@@ -91485,7 +91555,7 @@ Sz
 KU
 KU
 KU
-KU
+Lc
 KU
 KU
 KU
@@ -91716,7 +91786,7 @@ kp
 kp
 kp
 kp
-YP
+FD
 kp
 kp
 kp
@@ -91742,7 +91812,7 @@ Sz
 aQ
 hl
 Bt
-Bt
+pf
 Bt
 RO
 aQ
@@ -91973,6 +92043,7 @@ ev
 yB
 YP
 YP
+FD
 YP
 YP
 YP
@@ -91998,8 +92069,7 @@ YP
 YP
 YP
 YP
-YP
-YP
+FD
 YP
 YP
 YP
@@ -92230,6 +92300,7 @@ ev
 yB
 YP
 YP
+FD
 YP
 YP
 YP
@@ -92255,8 +92326,7 @@ YP
 YP
 YP
 YP
-YP
-YP
+FD
 YP
 YP
 YP
@@ -92513,7 +92583,7 @@ YP
 YP
 YP
 YP
-YP
+FD
 YP
 YP
 YP
@@ -92770,7 +92840,7 @@ kp
 kp
 kp
 oB
-oB
+ma
 oB
 kp
 kp
@@ -93027,7 +93097,7 @@ qh
 qh
 kp
 YP
-YP
+FD
 YP
 kp
 qh
@@ -93284,7 +93354,7 @@ qh
 qh
 aQ
 YP
-YP
+FD
 YP
 aQ
 qh
@@ -93541,7 +93611,7 @@ qh
 qh
 aQ
 YP
-YP
+FD
 YP
 aQ
 qh
@@ -93798,7 +93868,7 @@ qh
 qh
 aQ
 YP
-YP
+FD
 YP
 aQ
 qh
@@ -94055,7 +94125,7 @@ qh
 qh
 kp
 YP
-YP
+FD
 YP
 kp
 qh
@@ -94312,7 +94382,7 @@ qh
 qh
 aQ
 YP
-YP
+FD
 YP
 aQ
 qh
@@ -94569,7 +94639,7 @@ qh
 qh
 aQ
 YP
-YP
+FD
 YP
 aQ
 qh
@@ -94826,7 +94896,7 @@ qh
 qh
 aQ
 YP
-YP
+FD
 YP
 aQ
 qh
@@ -95083,7 +95153,7 @@ qh
 qh
 aQ
 YP
-YP
+FD
 YP
 aQ
 qh
@@ -95340,7 +95410,7 @@ qh
 qh
 kp
 YP
-YP
+FD
 YP
 kp
 qh
@@ -95597,7 +95667,7 @@ qh
 qh
 aQ
 YP
-YP
+FD
 YP
 mP
 qh
@@ -95854,7 +95924,7 @@ qh
 qh
 aQ
 YP
-YP
+FD
 YP
 aQ
 qh
@@ -96111,7 +96181,7 @@ qh
 qh
 aQ
 OW
-OW
+LD
 OW
 aQ
 qh
@@ -96368,7 +96438,7 @@ qh
 qh
 kp
 Zn
-Zn
+Ob
 Zn
 kp
 qh
@@ -96625,7 +96695,7 @@ kp
 kp
 kp
 YP
-YP
+FD
 YP
 kp
 kp
@@ -96882,7 +96952,7 @@ vL
 vL
 kp
 YP
-YP
+FD
 YP
 YP
 YP
@@ -97139,7 +97209,7 @@ vL
 vL
 kp
 YP
-YP
+FD
 nk
 nk
 nk
@@ -97910,7 +97980,7 @@ vL
 vL
 kp
 YP
-YP
+FD
 aT
 aT
 aT
@@ -98167,8 +98237,8 @@ kp
 vL
 kp
 YP
-YP
-YP
+FD
+FD
 YP
 YP
 YP
@@ -98689,7 +98759,7 @@ vL
 kp
 vL
 vL
-vL
+Ry
 vL
 vL
 kp
@@ -103584,7 +103654,7 @@ YP
 YP
 YP
 Sz
-YP
+FD
 Sz
 vL
 vL
@@ -103841,7 +103911,7 @@ YP
 YP
 YP
 Sz
-YP
+FD
 Sz
 Sz
 Sz
@@ -104098,7 +104168,7 @@ FD
 YP
 YP
 Sz
-YP
+FD
 YP
 YP
 YP
@@ -104355,7 +104425,7 @@ FD
 YP
 YP
 Sz
-YP
+FD
 YP
 YP
 YP
@@ -104612,10 +104682,10 @@ FD
 YP
 YP
 Sz
-YP
-YP
-YP
-YP
+FD
+FD
+FD
+FD
 YP
 YP
 YP
@@ -104872,7 +104942,7 @@ Sz
 YP
 YP
 YP
-nS
+pZ
 yW
 yW
 yW
@@ -106157,7 +106227,7 @@ aQ
 RS
 RS
 RS
-qn
+Tm
 RS
 RS
 RS
@@ -107442,7 +107512,7 @@ Sz
 Sz
 YP
 YP
-WC
+fg
 Vh
 Vh
 Vh
@@ -107699,7 +107769,7 @@ YP
 Sz
 YP
 YP
-YP
+FD
 YP
 YP
 YP
@@ -107950,13 +108020,13 @@ YP
 Sz
 Sz
 YP
-YP
-YP
-YP
-YP
-YP
-YP
-YP
+MJ
+FD
+FD
+MJ
+FD
+FD
+FD
 YP
 YP
 YP
@@ -108190,11 +108260,16 @@ yt
 yt
 kp
 kp
-vL
+Ry
 Ry
 FD
 FD
 FD
+FD
+FD
+FD
+FD
+FD
 YP
 YP
 YP
@@ -108202,12 +108277,7 @@ YP
 YP
 YP
 YP
-YP
-YP
-YP
-YP
-YP
-YP
+FD
 Sz
 YP
 Sz
@@ -108446,25 +108516,25 @@ yt
 yt
 yt
 kp
-vL
-vL
+Ry
+Ry
 vL
 Sz
 YP
+FD
 YP
 YP
 YP
 YP
-YP
-YP
-YP
-YP
-YP
-YP
-YP
-YP
-YP
-YP
+MJ
+FD
+FD
+FD
+FD
+FD
+FD
+FD
+FD
 Sz
 Sz
 Sz
@@ -108703,17 +108773,17 @@ yt
 yt
 kp
 kp
-YP
+FD
 Sz
 Sz
 Sz
 kp
-YP
+FD
 kp
 kp
 kp
 YP
-YP
+FD
 YP
 YP
 YP
@@ -108960,17 +109030,17 @@ yt
 kp
 kp
 YP
-YP
+FD
 YP
 Sz
 YP
 YP
-YP
+FD
 YP
 YP
 kp
 kp
-YP
+FD
 kp
 jp
 jp
@@ -109217,17 +109287,17 @@ yt
 yt
 yt
 YP
-YP
+FD
 YP
 aQ
 YP
 YP
-YP
+FD
 YP
 YP
 kp
 YP
-YP
+FD
 YP
 YP
 YP
@@ -109474,17 +109544,17 @@ yt
 yt
 yt
 YP
-YP
+FD
 YP
 YP
 xo
 YP
-YP
+FD
 YP
 YP
 kp
 YP
-YP
+FD
 YP
 YP
 YP
@@ -109736,12 +109806,12 @@ YP
 aQ
 YP
 YP
+FD
 YP
 YP
 YP
 YP
-YP
-YP
+FD
 YP
 YP
 YP
@@ -109993,12 +110063,12 @@ YP
 aQ
 YP
 YP
-YP
+FD
 YP
 YP
 kp
 YP
-YP
+FD
 YP
 YP
 YP
@@ -110255,7 +110325,7 @@ YP
 YP
 kp
 YP
-YP
+FD
 YP
 YP
 YP
