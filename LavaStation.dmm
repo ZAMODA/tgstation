@@ -304,6 +304,10 @@
 "gK" = (
 /turf/open/floor/iron/recharge_floor,
 /area/space)
+"gL" = (
+/obj/effect/mapping_helpers/trapdoor_placer,
+/turf/open/floor/engine/vacuum,
+/area/space)
 "gM" = (
 /obj/structure/chair/office/light{
 	dir = 4
@@ -110769,8 +110773,8 @@ YP
 YP
 zT
 GK
+gL
 HS
-GK
 zT
 lJ
 xa
