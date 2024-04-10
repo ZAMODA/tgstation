@@ -84,15 +84,16 @@
 /turf/open/floor/wood,
 /area/ruin/powered/golem_ship)
 "cP" = (
+/obj/item/stack/rods/lava/thirty,
 /obj/item/storage/toolbox/mechanical{
 	pixel_y = 7;
 	pixel_x = 3
 	},
+/obj/structure/table,
 /obj/item/storage/toolbox/mechanical{
 	pixel_y = 1;
 	pixel_x = -2
 	},
-/obj/structure/table,
 /turf/open/floor/mineral/titanium/purple,
 /area/ruin/powered/golem_ship)
 "dE" = (
